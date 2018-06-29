@@ -126,7 +126,7 @@ class xml2csv:
         self.output_buffer = []
 
 
-def run_xml2csv():
+if __name__ == '__main__':
     print("""xml2csv
     --help for help
     """)
